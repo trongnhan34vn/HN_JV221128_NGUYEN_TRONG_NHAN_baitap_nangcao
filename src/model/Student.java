@@ -1,9 +1,9 @@
 package model;
 
 public class Student {
-    public int studentId;
-    public String studentName;
-    public int age;
+    private int studentId;
+    private String studentName;
+    private int age;
 
     public Student(int studentId, String studentName, int age) {
         this.studentId = studentId;
