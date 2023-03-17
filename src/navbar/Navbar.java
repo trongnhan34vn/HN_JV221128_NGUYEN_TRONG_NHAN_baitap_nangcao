@@ -26,7 +26,7 @@ public class Navbar {
             switch (input) {
                 case 1:
                     System.out.println("List Students: " + Arrays.toString(studentArr));
-                    
+
                     break;
                 case 2:
                     System.out.println("Nhập vào thông tin sinh viên: ");
@@ -95,12 +95,12 @@ public class Navbar {
                 String name = sc.nextLine();
                 arr[i].setStudentName(name);
                 System.out.println("Nhập vào tuổi mới");
-                int age = Integer.parseInt(sc.nextLine()) ;
+                int age = Integer.parseInt(sc.nextLine());
                 arr[i].setAge(age);
             }
         }
         System.out.println("Update successfully");
-       return arr;
+        return arr;
     }
 
     public static Student[] sortArrStudent(Student[] arr) {
